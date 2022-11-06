@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T08:40:17.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ItrNdj7NtkMEjLftNaoj" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-06T19:48:15.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="U9oPZ3IybcR9HR22ZRKK" version="20.5.1" type="github">
   <diagram id="VBMkxzNfvZtcTCC2y9Cj" name="Page-1">
-    <mxGraphModel dx="1278" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2129" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VIb6RzidRsfvzU3eIvCG-1" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="310" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VIb6RzidRsfvzU3eIvCG-2" value="Movie Ticket Booking System" style="swimlane;" parent="1" vertex="1">
+        <mxCell id="VIb6RzidRsfvzU3eIvCG-2" value="Movie Ticket Booking System online" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="120" y="40" width="600" height="670" as="geometry" />
         </mxCell>
         <mxCell id="VIb6RzidRsfvzU3eIvCG-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=open;startFill=0;endArrow=none;endFill=0;dashed=1;" parent="VIb6RzidRsfvzU3eIvCG-2" source="VIb6RzidRsfvzU3eIvCG-6" target="VIb6RzidRsfvzU3eIvCG-10" edge="1">
@@ -41,9 +41,6 @@
         <mxCell id="VIb6RzidRsfvzU3eIvCG-16" value="Choose a session&lt;br&gt;(date, hour)" style="ellipse;whiteSpace=wrap;html=1;" parent="VIb6RzidRsfvzU3eIvCG-2" vertex="1">
           <mxGeometry x="450" y="281" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0jVwf5a9xF2E76QUUTUx-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="VIb6RzidRsfvzU3eIvCG-2" source="VIb6RzidRsfvzU3eIvCG-18" target="VIb6RzidRsfvzU3eIvCG-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="0jVwf5a9xF2E76QUUTUx-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="VIb6RzidRsfvzU3eIvCG-2" source="VIb6RzidRsfvzU3eIvCG-18" target="VIb6RzidRsfvzU3eIvCG-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -54,10 +51,7 @@
           <mxGeometry x="245" y="486" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VIb6RzidRsfvzU3eIvCG-19" value="Pay by &lt;br&gt;subscription card" style="ellipse;whiteSpace=wrap;html=1;" parent="VIb6RzidRsfvzU3eIvCG-2" vertex="1">
-          <mxGeometry x="130" y="584" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VIb6RzidRsfvzU3eIvCG-20" value="Pay by cash" style="ellipse;whiteSpace=wrap;html=1;" parent="VIb6RzidRsfvzU3eIvCG-2" vertex="1">
-          <mxGeometry x="280" y="584" width="110" height="60" as="geometry" />
+          <mxGeometry x="270" y="574" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VIb6RzidRsfvzU3eIvCG-21" value="Pay by credit card" style="ellipse;whiteSpace=wrap;html=1;" parent="VIb6RzidRsfvzU3eIvCG-2" vertex="1">
           <mxGeometry x="430" y="574" width="110" height="60" as="geometry" />
@@ -85,14 +79,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="94" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="0jVwf5a9xF2E76QUUTUx-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="VIb6RzidRsfvzU3eIvCG-2" source="0jVwf5a9xF2E76QUUTUx-1" target="VIb6RzidRsfvzU3eIvCG-18" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="344" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0jVwf5a9xF2E76QUUTUx-1" value="Pay online&lt;br&gt;(by subscription card &lt;br&gt;or credit card)" style="ellipse;whiteSpace=wrap;html=1;" parent="VIb6RzidRsfvzU3eIvCG-2" vertex="1">
-          <mxGeometry x="445" y="481" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0jVwf5a9xF2E76QUUTUx-7" value="Sign Up/Sign In" style="ellipse;whiteSpace=wrap;html=1;" parent="VIb6RzidRsfvzU3eIvCG-2" vertex="1">
           <mxGeometry x="50" y="334" width="120" height="60" as="geometry" />
@@ -148,12 +134,6 @@
         </mxCell>
         <mxCell id="0jVwf5a9xF2E76QUUTUx-28" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="VIb6RzidRsfvzU3eIvCG-2" source="VIb6RzidRsfvzU3eIvCG-23" target="0jVwf5a9xF2E76QUUTUx-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VIb6RzidRsfvzU3eIvCG-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="VIb6RzidRsfvzU3eIvCG-3" target="VIb6RzidRsfvzU3eIvCG-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VIb6RzidRsfvzU3eIvCG-3" value="Cashier" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="586" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VIb6RzidRsfvzU3eIvCG-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="VIb6RzidRsfvzU3eIvCG-4" target="VIb6RzidRsfvzU3eIvCG-23" edge="1">
           <mxGeometry relative="1" as="geometry" />

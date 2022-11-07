@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T11:18:00.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pkZ5zPjJEzxQIuLlTOK1" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T11:18:17.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sEAAIrsFNfpSoxVxl4Eu" version="20.5.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1332" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -9,17 +9,6 @@
             <mxPoint x="155" y="1060" as="sourcePoint" />
             <mxPoint x="380" y="440" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="0qeOcw0O2CBYLz9jzPhu-21" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="100" y="470" width="690" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="0qeOcw0O2CBYLz9jzPhu-22" value="If movie available" style="text;hachureGap=4;fillColor=default;" parent="0qeOcw0O2CBYLz9jzPhu-21" vertex="1">
-          <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint x="20" y="40" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0qeOcw0O2CBYLz9jzPhu-23" value="else" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;hachureGap=4;" parent="0qeOcw0O2CBYLz9jzPhu-21" vertex="1">
-          <mxGeometry y="131.75703947368422" width="690" height="6.562500000000001" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-2" value="Movies" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#CCCCFF;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="100" height="360" as="geometry" />
@@ -327,6 +316,17 @@
         </mxCell>
         <mxCell id="0qeOcw0O2CBYLz9jzPhu-12" value="else" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;hachureGap=4;" parent="0qeOcw0O2CBYLz9jzPhu-10" vertex="1">
           <mxGeometry y="110.00460526315791" width="300" height="5.625" as="geometry" />
+        </mxCell>
+        <mxCell id="0qeOcw0O2CBYLz9jzPhu-21" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=140;height=30;hachureGap=4;" parent="1" vertex="1">
+          <mxGeometry x="100" y="470" width="690" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0qeOcw0O2CBYLz9jzPhu-22" value="If movie available" style="text;hachureGap=4;fillColor=default;" parent="0qeOcw0O2CBYLz9jzPhu-21" vertex="1">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qeOcw0O2CBYLz9jzPhu-23" value="else" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;hachureGap=4;" parent="0qeOcw0O2CBYLz9jzPhu-21" vertex="1">
+          <mxGeometry y="131.75703947368422" width="690" height="6.562500000000001" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
